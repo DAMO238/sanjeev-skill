@@ -1,7 +1,7 @@
 from mycroft import FallbackSkill
 import grpc
-from . import sanjeev_pb2
-from . import sanjeev_pb2_grpc
+from . import sanjeev_pb2, sanjeev_pb2_grpc
+#from . import sanjeev_pb2_grpc
 
 class Retriever(object):
 
